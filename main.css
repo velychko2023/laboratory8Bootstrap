@@ -1,0 +1,88 @@
+/* змінює колір фону для верхньої частини сторінки */
+.navbar {
+  background-color: #4a4c4d;
+}
+
+/* змінює колір тексту для навігації */
+.navbar-nav li a {
+  color: #f8f9fa;
+}
+
+/* додає стиль для заголовку головної секції */
+.main-heading {
+  font-size: 3rem;
+  margin-top: 3rem;
+  margin-bottom: 3rem;
+  text-align: center;
+}
+
+/* додає стиль для кнопки */
+.btn-primary {
+  background-color: #007bff;
+  border-color: #007bff;
+}
+
+.btn-primary:hover {
+  background-color: #0069d9;
+  border-color: #0062cc;
+}
+
+/* додає стиль для форми */
+.form-control:focus {
+  border-color: #007bff;
+  box-shadow: none;
+}
+
+/* змінює фоновий колір для нижньої частини сторінки */
+.footer {
+  background-color: #0464c5;
+  color: #f8f9fa;
+}
+
+/* змінює колір тексту для дисклеймеру */
+.footer small {
+  color: #6c757d;
+}
+
+/* Додайте стилі для елементів, які відображаються на всіх розмірах екрану */
+
+/* Змініть розмір шрифту для заголовку на мобільних пристроях */
+@media (max-width: 576px) {
+  .main-heading {
+    font-size: 2rem;
+  }
+}
+
+/* Змініть розмір шрифту для заголовку на планшетних пристроях */
+@media (min-width: 576px) and (max-width: 992px) {
+  .main-heading {
+    font-size: 2.5rem;
+  }
+ 
+}
+
+/* Додайте стилі для елементів, які відображаються тільки на деяких розмірах екрану */
+
+/* Змініть розмір шрифту для навігації на десктопних пристроях */
+@media (min-width: 992px) {
+  .navbar-nav li a {
+    font-size: 1.2rem;
+  }
+  
+}
+
+
+/* Змініть розмір кнопки на мобільних пристроях */
+@media (max-width: 576px) {
+  .btn-primary {
+    font-size: 1rem;
+    padding: 0.5rem 1rem;
+  }
+}
+
+/* Змініть розмір форми на планшетних пристроях */
+@media (min-width: 576px) and (max-width: 992px) {
+  .form-control {
+    width: 75%;
+  }
+}
